@@ -1,0 +1,8 @@
+name: 'Shopify Theme Check'
+description: 'Lints theme code in current directory'
+outputs:
+  status:
+    description: 'Check output for linting errors and warnings'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
